@@ -1,22 +1,22 @@
 var pl1 = [
-    { songName: "15SEC", urL: "./songs/15SEX.mp3", img: "https://c.saavncdn.com/305/15-Seconds-English-2019-20190618233124-500x500.jpg" },
-    { songName: "Jale 2", urL: "./songs/Jale 2.mp3", img: "./images/jale.jpg" },
-    { songName: "Pehle Bhi main", urL: "./songs/Pehle Bhi Main.mp3", img: "./images/animal.jpg" },
-    { songName: "Ram siya ram", urL: "./songs/Ram Siya Ram.mp3", img: "./images/ram.jpg" },
-    { songName: "Arjan Valley", urL: "./songs/Arjan Vailly Ne.mp3", img: "./images/animal.jpg" },
-    { songName: "Choo Lo", urL: "./songs/Choo Lo.mp3", img: "./images/choolo.png" },
-    { songName: "vaaqif", urL: "./songs/Vaaqif.mp3", img: "./images/vaaqif.png" },
-    { songName: "Dil Mere", urL: "./songs/Dil Mere.mp3", img: "./images/choolo.png" }
+    { songName: "15SEC", urL: "/songs/15SEX.mp3", img: "https://c.saavncdn.com/305/15-Seconds-English-2019-20190618233124-500x500.jpg" },
+    { songName: "Jale 2", urL: "/songs/Jale 2.mp3", img: "./images/jale.jpg" },
+    { songName: "Pehle Bhi main", urL: "/songs/Pehle Bhi Main.mp3", img: "./images/animal.jpg" },
+    { songName: "Ram siya ram", urL: "/songs/Ram Siya Ram.mp3", img: "./images/ram.jpg" },
+    { songName: "Arjan Valley", urL: "/songs/Arjan Vailly Ne.mp3", img: "./images/animal.jpg" },
+    { songName: "Choo Lo", urL: "/songs/Choo Lo.mp3", img: "./images/choolo.png" },
+    { songName: "vaaqif", urL: "/songs/Vaaqif.mp3", img: "./images/vaaqif.png" },
+    { songName: "Dil Mere", urL: "/songs/Dil Mere.mp3", img: "./images/choolo.png" }
 
 
 ]
 
 
 var pl2 = [
-    { songName: "Tu Mori Duniya", urL: "./songs/playlists/playlist2/Tu Mori Duniya.mp3", img: "https://c.saavncdn.com/143/Tu-Mori-Duniya-Odia-2021-20210927195505-500x500.jpg" },
-    { songName: "Kebe Asi Tu", urL: "./songs/playlists/playlist2/Kebe Asi Tu.mp3", img: "https://c.saavncdn.com/027/Kebe-Aasi-Tu-Oriya-2021-20211018100748-500x500.jpg" },
-    { songName: "Bhala Paye Tate Re", urL: "./songs/playlists/playlist2/Bhala Paye Tate Re.mp3", img: "https://c.saavncdn.com/875/Bhala-Paaye-Tate-Re-Oriya-2022-20220706170811-500x500.jpg" },
-    { songName: "Sadqay", urL: "./songs/playlists/playlist2/Sadqay.mp3", img: "https://c.saavncdn.com/290/Sadqay-Hindi-2024-20240201170528-500x500.jpg" },
+    { songName: "Tu Mori Duniya", urL: "/songs/playlists/playlist2/Tu Mori Duniya.mp3", img: "https://c.saavncdn.com/143/Tu-Mori-Duniya-Odia-2021-20210927195505-500x500.jpg" },
+    { songName: "Kebe Asi Tu", urL: "/songs/playlists/playlist2/Kebe Asi Tu.mp3", img: "https://c.saavncdn.com/027/Kebe-Aasi-Tu-Oriya-2021-20211018100748-500x500.jpg" },
+    { songName: "Bhala Paye Tate Re", urL: "/songs/playlists/playlist2/Bhala Paye Tate Re.mp3", img: "https://c.saavncdn.com/875/Bhala-Paaye-Tate-Re-Oriya-2022-20220706170811-500x500.jpg" },
+    { songName: "Sadqay", urL: "/songs/playlists/playlist2/Sadqay.mp3", img: "https://c.saavncdn.com/290/Sadqay-Hindi-2024-20240201170528-500x500.jpg" },
     
 ]
 

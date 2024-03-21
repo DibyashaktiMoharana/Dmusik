@@ -76,7 +76,7 @@ function getDuration() {
 function duration(){
 setTimeout(()=>{
     getDuration();
-},500);
+},800);
 }
 
 function main (arr) {

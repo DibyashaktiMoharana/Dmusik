@@ -1,12 +1,12 @@
 var pl1 = [
-    { songName: "15SEC", urL: "/songs/15SEX.mp3", img: "https://c.saavncdn.com/305/15-Seconds-English-2019-20190618233124-500x500.jpg" },
-    { songName: "Jale 2", urL: "/songs/Jale 2.mp3", img: "./images/jale.jpg" },
-    { songName: "Pehle Bhi main", urL: "/songs/Pehle Bhi Main.mp3", img: "./images/animal.jpg" },
-    { songName: "Ram siya ram", urL: "/songs/Ram Siya Ram.mp3", img: "./images/ram.jpg" },
-    { songName: "Arjan Valley", urL: "/songs/Arjan Vailly Ne.mp3", img: "./images/animal.jpg" },
-    { songName: "Choo Lo", urL: "/songs/Choo Lo.mp3", img: "./images/choolo.png" },
-    { songName: "vaaqif", urL: "/songs/Vaaqif.mp3", img: "./images/vaaqif.png" },
-    { songName: "Dil Mere", urL: "/songs/Dil Mere.mp3", img: "./images/choolo.png" }
+    { songName: "15SEC", urL: "songs/15SEX.mp3", img: "https://c.saavncdn.com/305/15-Seconds-English-2019-20190618233124-500x500.jpg" },
+    { songName: "Jale 2", urL: "songs/Jale 2.mp3", img: "./images/jale.jpg" },
+    { songName: "Pehle Bhi main", urL: "songs/Pehle Bhi Main.mp3", img: "./images/animal.jpg" },
+    { songName: "Ram siya ram", urL: "songs/Ram Siya Ram.mp3", img: "./images/ram.jpg" },
+    { songName: "Arjan Valley", urL: "songs/Arjan Vailly Ne.mp3", img: "./images/animal.jpg" },
+    { songName: "Choo Lo", urL: "songs/Choo Lo.mp3", img: "./images/choolo.png" },
+    { songName: "vaaqif", urL: "songs/Vaaqif.mp3", img: "./images/vaaqif.png" },
+    { songName: "Dil Mere", urL: "songs/Dil Mere.mp3", img: "./images/choolo.png" }
 
 
 ]

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+
+    <title>DMusik</title>
+  </head>
+  <body>
+    <div id="main">
+      <div class="sidepane">
+        <div class="logo"></div>
+        <div class="menu">
+          <div class="options o1">Playlists</div>
+          <div class="options o2">Home</div>
+          <div class="options o3"><a href="https://dibyashaktimoharana.github.io/FirstWebsite/#" style="text-decoration: none;">Contact</a></div>
+        </div>
+      </div>
+      <div class="main-container">
+        <div class="topbar">DMuzik player version-1.0</div>
+        <div class="container">
+            <div class="leftsuper"><div id="left"></div></div>
+
+            <div id="right">
+              <h3>All Songs.</h3>
+              <div id="all-songs"></div>
+            </div>
+        </div>
+
+        <div class="description">
+            <h1>Next playlist info</h1>
+            <ul id="playlists">
+            </ul>
+        </div>
+
+      </div>
+      <div class="playlistcontainer">
+        <span class="playlistcard" id="pl1">
+          <h1>Playlist 1</h1>
+          <div class="songlist">
+            <ul>
+              <li>15SEC</li>
+              <li>Jale 2</li>
+              <li>Pehle Bhi main</li>
+              <li>Ram siya ram</li>
+              <li>Arjan Valley</li>
+              <li>Choo Lo</li>
+              <li>vaaqif</li>
+              <li>Dil Mere</li>
+            </ul>
+          </div>
+        </span>
+        <span class="playlistcard" id="pl2">
+          <h1>Playlist 1</h1>
+          <div class="songlist">
+            <ul>
+              <li>Tu Mori Duniya</li>
+              <li>Kebe Asi Tu</li>
+              <li>Bhala Paye Tate Re</li>
+              <li>Sadqay</li>
+            </ul>
+          </div>
+        </span>
+      </div>
+      </div>
+     
+    <div class="bottom">
+      <div class="timerscroll">
+        <div id="progress"></div>
+      </div>
+      <div id="player">
+        <div class="song-info">
+            <label class="switch">
+                <input type="checkbox" value = "1" id="autoplaycheck">
+                <span class="slider round"></span>
+              </label>
+        </div>
+        <div class="media-controls">
+            <h3 id="loop"><i class="ri-infinity-fill"></i></h3>
+            <h3 id="backward"><i class="ri-skip-back-mini-fill"></i></h3>
+            <h3 id="play"><i class="ri-play-fill"></i></h3>
+            <h3 id="forward"><i class="ri-skip-forward-mini-fill"></i></h3>
+            <h3 id="reset"><i class="ri-restart-line"></i></h3>
+        </div>
+        <div class="volume">
+            <h3 id="volumebtn"><i class="ri-volume-up-fill"></i></h3> 
+            </div>
+            <div class="range-slider" style="display: none;">
+                <input type="range" style="writing-mode: vertical-lr" value="100">
+              </div>
+            </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- <script src="index.js"></script> -->
+    <!-- cluttered rough -->
+
+    <!-- <script src="/loco.js"></script> -->
+    <script src="/script.js"></script>
+  </body>
+</html>

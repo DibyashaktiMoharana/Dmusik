@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy, sans-serif;
+    color: white;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 100vw;
+}
+
+#main{
+    overflow-x: hidden;
+    display: flex;
+    height: 85%;
+    width: 100%;
+    background-color: #111;
+    padding: 5vw 10vw;
+}
+
+.leftsuper{
+    height:100% ;
+    width: 45%;
+}
+#left{
+    border-radius: 1.5em;
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+    /* background-image: url(/images/animal.jpg); */
+    background-size: cover;
+    background-position: top;
+    transition: 1s;
+}
+
+
+#left:hover{
+    scale: 0.95;
+}
+
+#right{
+    text-align: center;
+    width: 55%;
+    height: 100%;
+    padding: 0 3vw;
+}
+
+#right h3{
+    font-size: 40px;
+
+}
+
+#all-songs{
+    border-radius: 1.5em;
+    background-color: rgba(20, 52, 157, 0.182);
+    margin-top: 30px ;
+    overflow-y: scroll;
+    height: 85%;
+}
+
+.song-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #fff;
+    padding: 15px 15px;
+}
+
+.song-card:hover{
+    background-color: #333;
+}
+
+.song-card .part1{
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+}
+
+.song-card img{
+    height: 55px;
+    width: 55px;
+    margin-right: 20px;
+
+}
+
+.song-card h2 {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.song-card h6{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.song-card:nth-last-child(1){
+    border-bottom: 1px solid #ffffff;
+}
+
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    width: 100vw;
+}
+#player{
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#all-songs::-webkit-scrollbar{
+    width: 7px;
+
+}
+#all-songs::-webkit-scrollbar-thumb{
+    border-radius: 2rem;
+    background-color: #b11f0f;
+    
+}
+#all-songs::-webkit-scrollbar-thumb:hover{
+    border-radius: 2rem;
+    background-color: #921a0c;
+    
+}
+
+#player h3{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 100vw;
+    background-color: rgb(41, 41, 41);
+}
+#h3 i {
+    font-size: 24px;
+}
+
+#player h3:active{
+    scale: 0.93;
+}
+
+
+#progress{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 5px;
+    width: 0px;
+    background-color: green;
+}

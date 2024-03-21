@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Frontend Music Player is a simple yet feature-rich web application built using JavaScript, HTML, and CSS. It provides users with a seamless music listening experience, complete with basic functionalities such as progress bar, loop, reset, volume controls, autoplay feature, and support for multiple playlists. The player is designed with a user-friendly interface and includes animations to enhance the user experience.
+This Music Player WebApp is a simple yet feature-rich web application built using JavaScript, HTML, and CSS. It provides users with a seamless music listening experience, complete with basic functionalities such as progress bar, loop, reset, volume controls, autoplay feature, and support for multiple playlists. The player is designed with a user-friendly interface and includes animations to enhance the user experience.
 
 ## Features
 
